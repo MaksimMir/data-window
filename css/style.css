@@ -1,0 +1,19 @@
+.box {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.box span {
+    display: block;
+    height: 60px;
+    padding: 10px 0;
+}
+
+.show {
+    display: block;
+}
+
+.showed {
+    font-weight: bold;
+    text-decoration: underline;
+}

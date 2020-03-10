@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="modal" >
+      <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="close">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ol></ol>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn clear btn-secondary">Close</button>
+            <button type="button" class="btn save btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="personal-block container col-6">
+        <div class="box persons row justify-content-center">
+            <p class="col-8 ">Сотрудник</p>
+            <button class="btn btn-info col-2" data-value="persons">Выбрать</button>
+            <span class="col-8 ml-auto"></span>
+        </div>
+        <div class="box position row justify-content-center">
+            <p class="col-8">Должность</p>
+            <button class="btn btn-info col-2" data-value="position">Выбрать</button>
+            <span class="col-6 ml-auto"></span>
+        </div>
+        <div class="box agency row justify-content-center">
+            <p class="col-8">Организация</p>
+            <button class="btn btn-info col-2" data-value="agency">Выбрать</button>
+            <span class="col-6 ml-auto"></span>
+        </div>
+        <div class="box unit row justify-content-center">
+            <p class="col-8">Подразделение</p>
+            <button class="btn btn-info col-2" data-value="unit">Выбрать</button>
+            <span class="col-6 ml-auto"></span>
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/class.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
