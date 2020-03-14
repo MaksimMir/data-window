@@ -9,6 +9,15 @@
     padding: 10px 0;
 }
 
+.box .str-delite {
+    border: none;
+    font-weight: bold;
+    color: red;
+    margin-left: 10px;
+    background: none;
+    outline: none;
+}
+
 .show {
     display: block;
 }
